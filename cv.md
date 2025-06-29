@@ -1,13 +1,13 @@
 # __Alexander Bet__
 
-## __Frontend Develope__
+## __Frontend Developer__
 
 ## __Contacts__
 - __Location:__ Minsk, Belarus
 - __Phone:__ +375 29 548-69-11
 - __Email:__ ibetram12@gmail.com
-- __GitHub:__ [alexander-bet] (https://github.com/alexanderbet)
-- __LinkedIn:__ [Alexander Bet] (https://www.linkedin.com/in/alexander-bet/)
+- __GitHub:__ [alexander-bet](https://github.com/alexanderbet)
+- __LinkedIn:__ [Alexander Bet](https://www.linkedin.com/in/alexander-bet/)
 
 ## __About Me__
 I am a beginner frontend developer from Belarus, currently in Minsk. 
