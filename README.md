@@ -1,1 +1,1 @@
-# rsschool-cv
+https://github.com/alexanderbet/rsschool-cv/blob/gh-pages/cv
