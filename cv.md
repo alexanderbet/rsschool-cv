@@ -49,7 +49,7 @@ Link: [Look Around School](https://alexanderbet.github.io/look-around-school/)
 __Speciality:__ Tourism and nature managment.  
 
 - __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0).  
-__Speciality:__ Front-end developer
+__Speciality:__ Front-end developer.
 
 
 ## __Languages__
