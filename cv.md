@@ -48,7 +48,7 @@ Link: [Look Around School](https://alexanderbet.github.io/look-around-school/)
 - __Higher education:__ Belarusian State Technological University (2012-2017).  
 __Speciality:__ Tourism and nature managment.  
 
-- __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0)
+- __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0).  
 __Speciality:__ Front-end developer
 
 
