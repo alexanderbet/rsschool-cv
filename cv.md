@@ -41,15 +41,15 @@ for (const key in userInfo) {
 ```
 
 ## __Experience__
-I made a landing page for my friend's breakdance school. 
+I made a landing page for my friend's breakdance school.  
 Link: [Look Around School](https://alexanderbet.github.io/look-around-school/)
 
 ## __Education__
-- __Higher education:__ Belarusian State Technological University (2012-2017).
+- __Higher education:__ Belarusian State Technological University (2012-2017).  
 __Speciality:__ Tourism and nature managment.  
 
 - __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0)
-__Speciality:__ Front-end developer 
+__Speciality:__ Front-end developer
 
 
 ## __Languages__
