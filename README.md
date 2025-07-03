@@ -1,1 +1,1 @@
-[CV – Alexander Bet](https://github.com/alexanderbet/rsschool-cv/blob/gh-pages/cv.md)
+https://alexanderbet.github.io/rsschool-cv/
