@@ -57,7 +57,6 @@
     column-gap: 15px;
     .about__text {
       max-width: 700px;
-      font-size: 16px;
       .about__title {
         font-size: 32px;
         font-weight: 600;
@@ -65,6 +64,24 @@
         margin-bottom: 10px;
         .text-blue {
           color: var(--color-accent);
+        }
+      }
+    }
+  }
+}
+
+.skills {
+  padding: var(--section-padding-y);
+  background-color: var(--color-light);
+  .skills__inner {
+    .skills__icons {
+      .skills__row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        &:not(:last-child) {
+          margin-bottom: 15px;
         }
       }
     }

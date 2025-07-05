@@ -112,7 +112,7 @@ legend {
   --color-light: #f7f7f7;
   --color-gray: #f1f1f1;
   --color-accent: #0099ff;
-  --section-padding-y: 70px 0;
+  --section-padding-y: 30px 0;
 }
 
 html {
@@ -223,7 +223,6 @@ svg * {
 }
 .about .about__inner .about__text {
   max-width: 700px;
-  font-size: 16px;
 }
 .about .about__inner .about__text .about__title {
   font-size: 32px;
@@ -233,4 +232,18 @@ svg * {
 }
 .about .about__inner .about__text .about__title .text-blue {
   color: var(--color-accent);
+}
+
+.skills {
+  padding: var(--section-padding-y);
+  background-color: var(--color-light);
+}
+.skills .skills__inner .skills__icons .skills__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills__inner .skills__icons .skills__row:not(:last-child) {
+  margin-bottom: 15px;
 }
