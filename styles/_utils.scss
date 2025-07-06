@@ -19,3 +19,12 @@
 .text-blue {
   color: var(--color-accent);
 }
+
+.title {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--color-accent);
+}

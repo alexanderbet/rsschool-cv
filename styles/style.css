@@ -111,6 +111,15 @@ legend {
   color: var(--color-accent);
 }
 
+.title {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--color-accent);
+}
+
 :root {
   --color-dark: #1b1c1d;
   --color-light: #f7f7f7;
@@ -240,6 +249,9 @@ svg * {
   padding: var(--section-padding-y);
   background-color: var(--color-light);
 }
+.skills .skills__inner .skills__title {
+  margin-bottom: 30px;
+}
 .skills .skills__inner .skills__icons .skills__row {
   display: flex;
   flex-wrap: wrap;
@@ -254,28 +266,49 @@ svg * {
   padding: var(--section-padding-y);
   background-color: var(--color-gray);
 }
-.experience .experience__inner {
+.experience .experience__inner .experience__title {
+  margin-bottom: 30px;
+}
+.experience .experience__inner .experience__item {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.experience .experience__inner .experience__text {
+.experience .experience__inner .experience__item .experience__text {
   margin-bottom: 15px;
 }
-.experience .experience__inner .experience__text span {
+.experience .experience__inner .experience__item .experience__text span {
   font-weight: 500;
 }
-.experience .experience__inner .experience__text:hover span {
+.experience .experience__inner .experience__item .experience__text:hover span {
   text-decoration: underline;
 }
 .experience .experience__inner .experience__item .experience__image {
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
 }
 .experience .experience__inner .experience__item .experience__subtext {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
   color: var(--color-accent);
+}
+
+.education {
+  padding: var(--section-padding-y);
+  background-color: var(--color-light);
+}
+.education .education__inner .education__title {
+  margin-bottom: 30px;
+}
+.education .education__inner .education__text {
+  text-align: center;
+}
+.education .education__inner .education__text span {
+  font-weight: 600;
+}
+.education .education__inner .education__text p:nth-child(2) {
+  margin-bottom: 15px;
 }

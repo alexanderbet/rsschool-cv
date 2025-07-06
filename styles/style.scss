@@ -72,6 +72,9 @@
   padding: var(--section-padding-y);
   background-color: var(--color-light);
   .skills__inner {
+    .skills__title {
+      margin-bottom: 30px;
+    }
     .skills__icons {
       .skills__row {
         display: flex;
@@ -90,29 +93,54 @@
   padding: var(--section-padding-y);
   background-color: var(--color-gray);
   .experience__inner {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    .experience__text {
-      margin-bottom: 15px;
-      & span {
-        font-weight: 500;
-      }
-      &:hover span {
-        text-decoration: underline;
-      }
+    .experience__title {
+      margin-bottom: 30px;
     }
     .experience__item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .experience__text {
+        margin-bottom: 15px;
+        & span {
+          font-weight: 500;
+        }
+        &:hover span {
+          text-decoration: underline;
+        }
+      }
       .experience__image {
         overflow: hidden;
         border-radius: 5px;
         margin-bottom: 15px;
+        -webkit-box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
       }
       .experience__subtext {
         font-size: 18px;
         font-weight: 500;
         text-align: center;
         color: var(--color-accent);
+      }
+    }
+  }
+}
+
+.education {
+  padding: var(--section-padding-y);
+  background-color: var(--color-light);
+  .education__inner {
+    .education__title {
+      margin-bottom: 30px;
+    }
+    .education__text {
+      text-align: center;
+      & span {
+        font-weight: 600;
+      }
+      & p:nth-child(2) {
+        margin-bottom: 15px;
       }
     }
   }
