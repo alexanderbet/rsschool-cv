@@ -34,6 +34,7 @@
           display: inline-flex;
           padding: 15px 0;
           text-transform: uppercase;
+          font-weight: 500;
           &:hover {
             color: var(--color-accent);
             transition: color 0.3s ease-in-out;
@@ -62,9 +63,6 @@
         font-weight: 600;
         max-width: 350px;
         margin-bottom: 10px;
-        .text-blue {
-          color: var(--color-accent);
-        }
       }
     }
   }
@@ -83,6 +81,38 @@
         &:not(:last-child) {
           margin-bottom: 15px;
         }
+      }
+    }
+  }
+}
+
+.experience {
+  padding: var(--section-padding-y);
+  background-color: var(--color-gray);
+  .experience__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .experience__text {
+      margin-bottom: 15px;
+      & span {
+        font-weight: 500;
+      }
+      &:hover span {
+        text-decoration: underline;
+      }
+    }
+    .experience__item {
+      .experience__image {
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+      .experience__subtext {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        color: var(--color-accent);
       }
     }
   }

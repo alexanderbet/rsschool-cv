@@ -107,6 +107,10 @@ legend {
   max-width: 1220px;
 }
 
+.text-blue {
+  color: var(--color-accent);
+}
+
 :root {
   --color-dark: #1b1c1d;
   --color-light: #f7f7f7;
@@ -201,6 +205,7 @@ svg * {
   display: inline-flex;
   padding: 15px 0;
   text-transform: uppercase;
+  font-weight: 500;
 }
 .header .header__inner .header__menu .header__menu-item .header__menu-link:hover {
   color: var(--color-accent);
@@ -230,9 +235,6 @@ svg * {
   max-width: 350px;
   margin-bottom: 10px;
 }
-.about .about__inner .about__text .about__title .text-blue {
-  color: var(--color-accent);
-}
 
 .skills {
   padding: var(--section-padding-y);
@@ -246,4 +248,34 @@ svg * {
 }
 .skills .skills__inner .skills__icons .skills__row:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.experience {
+  padding: var(--section-padding-y);
+  background-color: var(--color-gray);
+}
+.experience .experience__inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.experience .experience__inner .experience__text {
+  margin-bottom: 15px;
+}
+.experience .experience__inner .experience__text span {
+  font-weight: 500;
+}
+.experience .experience__inner .experience__text:hover span {
+  text-decoration: underline;
+}
+.experience .experience__inner .experience__item .experience__image {
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.experience .experience__inner .experience__item .experience__subtext {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-accent);
 }
