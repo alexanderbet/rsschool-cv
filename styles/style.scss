@@ -160,6 +160,22 @@
       & span {
         font-weight: 600;
       }
+      .uk-icon::before {
+         content: url(../images/languages/icons/uk-icon.svg);
+         display: inline-block;
+         vertical-align: top;
+         margin-right: 7px;
+         width: 32px;
+         height: 32px;
+      }
+      .pl-icon::before {
+         content: url(../images/languages/icons/pl-icon.svg);
+         display: inline-block;
+         vertical-align: top;
+         margin-right: 7px;
+         width: 32px;
+         height: 32px;
+      }
       & p:first-child {
         margin-bottom: 15px;
       }

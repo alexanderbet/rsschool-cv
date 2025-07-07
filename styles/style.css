@@ -131,7 +131,7 @@ legend {
 html {
   height: 100%;
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -327,6 +327,22 @@ svg * {
 }
 .languages .languages__inner .languages__text span {
   font-weight: 600;
+}
+.languages .languages__inner .languages__text .uk-icon::before {
+  content: url(../images/languages/icons/uk-icon.svg);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+  width: 32px;
+  height: 32px;
+}
+.languages .languages__inner .languages__text .pl-icon::before {
+  content: url(../images/languages/icons/pl-icon.svg);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+  width: 32px;
+  height: 32px;
 }
 .languages .languages__inner .languages__text p:first-child {
   margin-bottom: 15px;
