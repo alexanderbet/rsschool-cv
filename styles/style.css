@@ -312,3 +312,22 @@ svg * {
 .education .education__inner .education__text p:nth-child(2) {
   margin-bottom: 15px;
 }
+
+.languages {
+  padding: var(--section-padding-y);
+  background-color: var(--color-gray);
+}
+.languages .languages__inner .languages__title {
+  margin-bottom: 30px;
+}
+.languages .languages__inner .languages__text {
+  text-align: center;
+  position: relative;
+  font-size: 26px;
+}
+.languages .languages__inner .languages__text span {
+  font-weight: 600;
+}
+.languages .languages__inner .languages__text p:first-child {
+  margin-bottom: 15px;
+}

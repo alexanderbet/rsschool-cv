@@ -145,3 +145,24 @@
     }
   }
 }
+
+.languages {
+  padding: var(--section-padding-y);
+  background-color: var(--color-gray);
+  .languages__inner {
+    .languages__title {
+      margin-bottom: 30px;
+    }
+    .languages__text {
+      text-align: center;
+      position: relative;
+      font-size: 26px;
+      & span {
+        font-weight: 600;
+      }
+      & p:first-child {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
