@@ -156,14 +156,14 @@
     .languages__text {
       text-align: center;
       position: relative;
-      font-size: 26px;
+      font-size: 24px;
       & span {
         font-weight: 600;
       }
       .uk-icon::before {
          content: url(../images/languages/icons/uk-icon.svg);
          display: inline-block;
-         vertical-align: top;
+         vertical-align: bottom;
          margin-right: 7px;
          width: 32px;
          height: 32px;
@@ -181,4 +181,59 @@
       }
     }
   }
+}
+
+.contacts {
+   padding: var(--section-padding-y);
+   background-color: var(--color-light);
+   .contacts__inner {
+      .contacts__title {
+         margin-bottom: 30px;
+      }
+      .contacts__info {
+         text-align: center;
+         .contacts__location {
+            margin-bottom: 15px;
+            &::before {
+               content: url(../images/contacts/icons/location-icon.svg);
+               display: inline-block;
+               width: 22px;
+               height: 22px; 
+               vertical-align: bottom;
+            }
+         }
+         .contacts__phone {
+            margin-bottom: 15px;
+            &::before {
+               content: url(../images/contacts/icons/phone-icon.svg);
+               display: inline-block;
+               width: 22px;
+               height: 22px;
+               vertical-align: bottom;
+            }
+            .telegram-icon {
+               content: url(../images/contacts/icons/telegram-icon.svg);
+               display: inline-block;
+               width: 22px;
+               height: 22px;
+               vertical-align: bottom;
+            }
+         }
+         .socials-icons {
+            .socials-list {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               gap: 30px;
+               .socials-item {
+                  .socials-link {
+                     display: inline-block;
+                     width: 52px;
+                     height: 52px;
+                  }
+               }
+            }
+         }
+      }
+   }
 }

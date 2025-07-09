@@ -99,25 +99,22 @@ legend {
 .wrapper main {
   flex: 1 1 auto;
 }
-
-.container {
+.wrapper .container {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   max-width: 1220px;
 }
-
-.text-blue {
-  color: var(--color-accent);
-}
-
-.title {
+.wrapper .title {
   display: inline-block;
   font-size: 26px;
   font-weight: 600;
   text-align: left;
   text-transform: uppercase;
   border-bottom: 3px solid var(--color-accent);
+}
+.wrapper .text-blue {
+  color: var(--color-accent);
 }
 
 :root {
@@ -323,7 +320,7 @@ svg * {
 .languages .languages__inner .languages__text {
   text-align: center;
   position: relative;
-  font-size: 26px;
+  font-size: 24px;
 }
 .languages .languages__inner .languages__text span {
   font-weight: 600;
@@ -331,7 +328,7 @@ svg * {
 .languages .languages__inner .languages__text .uk-icon::before {
   content: url(../images/languages/icons/uk-icon.svg);
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
   margin-right: 7px;
   width: 32px;
   height: 32px;
@@ -346,4 +343,53 @@ svg * {
 }
 .languages .languages__inner .languages__text p:first-child {
   margin-bottom: 15px;
+}
+
+.contacts {
+  padding: var(--section-padding-y);
+  background-color: var(--color-light);
+}
+.contacts .contacts__inner .contacts__title {
+  margin-bottom: 30px;
+}
+.contacts .contacts__inner .contacts__info {
+  text-align: center;
+}
+.contacts .contacts__inner .contacts__info .contacts__location {
+  margin-bottom: 15px;
+}
+.contacts .contacts__inner .contacts__info .contacts__location::before {
+  content: url(../images/contacts/icons/location-icon.svg);
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+.contacts .contacts__inner .contacts__info .contacts__phone {
+  margin-bottom: 15px;
+}
+.contacts .contacts__inner .contacts__info .contacts__phone::before {
+  content: url(../images/contacts/icons/phone-icon.svg);
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+.contacts .contacts__inner .contacts__info .contacts__phone .telegram-icon {
+  content: url(../images/contacts/icons/telegram-icon.svg);
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+.contacts .contacts__inner .contacts__info .socials-icons .socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contacts .contacts__inner .contacts__info .socials-icons .socials-list .socials-item .socials-link {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
 }
