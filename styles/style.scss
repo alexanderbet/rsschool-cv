@@ -72,8 +72,9 @@
   padding: var(--section-padding-y);
   background-color: var(--color-light);
   .skills__inner {
+   text-align: center;
     .skills__title {
-      margin-bottom: 30px;
+      margin-bottom: var(--margin-title-y);
     }
     .skills__icons {
       .skills__row {
@@ -93,8 +94,9 @@
   padding: var(--section-padding-y);
   background-color: var(--color-gray);
   .experience__inner {
+   text-align: center;
     .experience__title {
-      margin-bottom: 30px;
+      margin-bottom: var(--margin-title-y);
     }
     .experience__item {
       display: flex;
@@ -131,8 +133,9 @@
   padding: var(--section-padding-y);
   background-color: var(--color-light);
   .education__inner {
+   text-align: center;
     .education__title {
-      margin-bottom: 30px;
+      margin-bottom: var(--margin-title-y);
     }
     .education__text {
       text-align: center;
@@ -150,8 +153,9 @@
   padding: var(--section-padding-y);
   background-color: var(--color-gray);
   .languages__inner {
+   text-align: center;
     .languages__title {
-      margin-bottom: 30px;
+      margin-bottom: var(--margin-title-y);
     }
     .languages__text {
       text-align: center;
@@ -171,7 +175,7 @@
       .pl-icon::before {
          content: url(../images/languages/icons/pl-icon.svg);
          display: inline-block;
-         vertical-align: top;
+         vertical-align: bottom;
          margin-right: 7px;
          width: 32px;
          height: 32px;
@@ -187,8 +191,9 @@
    padding: var(--section-padding-y);
    background-color: var(--color-light);
    .contacts__inner {
+      text-align: center;
       .contacts__title {
-         margin-bottom: 30px;
+         margin-bottom: var(--margin-title-y);
       }
       .contacts__info {
          text-align: center;
@@ -218,21 +223,53 @@
                height: 22px;
                vertical-align: bottom;
             }
+            & a:hover {
+                  color: var(--color-accent);
+               }
          }
-         .socials-icons {
-            .socials-list {
+         .socials__icons {
+            .socials__list {
                display: flex;
                align-items: center;
                justify-content: center;
                gap: 30px;
-               .socials-item {
-                  .socials-link {
+               .socials__item {
+                  .socials__link {
                      display: inline-block;
-                     width: 52px;
-                     height: 52px;
+                     width: 46px;
+                     height: 46px;
+                     &:hover {
+                        scale: 1.05;
+                     }
                   }
                }
             }
+         }
+      }
+   }
+}
+
+.footer {
+   background-color: var(--color-gray);
+   padding: 15px 0;
+   .footer__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      .footer__text {
+         font-size: 14px;
+         & span {
+            font-weight: 600;
+         }
+      }
+      .footer__icons {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         column-gap: 15px;
+         .footer__link:hover {
+            scale: 1.05;
          }
       }
    }

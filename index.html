@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>CV – Alexander Bet / Frontend Developer</title>
+    <script type="module" src="./js/index.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -16,7 +17,7 @@
           <nav class="header__menu">
             <ul class="header__menu-list">
               <li class="header__menu-item">
-                <a href="#about" class="header__menu-link _active-link">
+                <a href="#about" class="header__menu-link">
                   About Me
                </a>
               </li>
@@ -73,9 +74,8 @@
               <img
                 class="about__img"
                 src="./images/about/about-photo.png"
-                alt="Frontend Developer"
-                width="700"
-                loading="lazy"
+                alt="Alexander Bet photo"
+                width="700px"
                >
             </div>
           </div>
@@ -133,7 +133,7 @@
                   loading="lazy"
                   >
                 <img
-                  src="./images/skills/icons/Figma-icon.svg"
+                  src="./images/skills/icons/figma-icon.svg"
                   alt="Figma"
                   loading="lazy"
                   >
@@ -160,7 +160,7 @@
                   <img
                     src="./images/experience/project.png"
                     alt="Landing page project"
-                    width="800"
+                    width="800px"
                     loading="lazy"
                      >
                 </a>
@@ -218,16 +218,20 @@
                      Telegram)
                   </a>
                </div>
-               <div class="socials-icons">
-                  <ul class="socials-list">
-                     <li class="socials-item">
-                        <a href="mailto:ibetram12@gmail.com" target="_blank" class="socials-link">
-                           <img src="./images/contacts/icons/gmail-icon.svg" alt="Gmail">
+               <div class="socials__icons">
+                  <ul class="socials__list">
+                     <li class="socials__item">
+                        <a href="mailto:ibetram12@gmail.com" target="_blank" class="socials__link">
+                           <img src="./images/contacts/icons/gmail-icon.svg" 
+                           alt="Gmail" 
+                           loading="lazy">
                         </a>
                      </li>
-                     <li class="socials-item">
-                        <a href="https://www.linkedin.com/in/alexander-bet/" target="_blank" class="socials-link">
-                           <img src="./images/contacts/icons/linkedin-icon.svg" alt="Linkedin">
+                     <li class="socials__item">
+                        <a href="https://www.linkedin.com/in/alexander-bet/" target="_blank" class="socials__link">
+                           <img src="./images/contacts/icons/linkedin-icon.svg" 
+                           alt="Linkedin" 
+                           loading="lazy">
                         </a>
                      </li>
                   </ul>
@@ -235,6 +239,18 @@
             </div>
          </div>
         </section>
+        <footer class="footer">
+         <div class="footer__inner container">
+            <div class="footer__text">
+               <p>© 2025 by <span>Alexander Bet</span>.</p>
+               <p>All Rights Reserved.</p>
+            </div>
+            <div class="footer__icons">
+               <a href="https://github.com/alexanderbet" target="_blank" class="footer__link"><img src="./images/footer/icons/github-icon.svg" alt="GitHub profile link"></a>
+               <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer__link"><img src="./images/footer/icons/rs-school-logo.svg" alt="RS School Course"></a>
+            </div>
+         </div>
+        </footer>
       </main>
     </div>
   </body>
