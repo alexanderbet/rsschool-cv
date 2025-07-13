@@ -18,7 +18,7 @@ Assiduous, I devote a lot of time to self-education.
 A positive young man with a good sense of humor.  
 In my free time I am interested in music, cinema, IT, the gym and basketball. 
 
-## __Skills__
+## __Hard Skills__
 - HTML5
 - CSS3 (SASS/SCSS, Bootstrap, Tailwind)
 - BEM
@@ -41,16 +41,14 @@ for (const key in userInfo) {
 ```
 
 ## __Experience__
-I made a landing page for my friend's breakdance school.  
-Link: [Look Around School](https://alexanderbet.github.io/look-around-school/)
+I made a landing page project for my friend's breakdance school [Look Around School](https://alexanderbet.github.io/look-around-school/).
 
 ## __Education__
 - __Higher education:__ Belarusian State Technological University (2012-2017).  
 __Speciality:__ Tourism and nature managment.  
 
-- __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0).  
-__Speciality:__ Front-end developer.
-
+- __Courses:__ RS School (JS/FE Pre-School 2025Q2, Stage 0) – Present.  
+__Speciality:__ Frontend developer.
 
 ## __Languages__
 - __English:__ B1
