@@ -252,7 +252,7 @@ svg * {
 .skills .skills__inner .skills__title {
   margin-bottom: var(--margin-title-y);
 }
-.skills .skills__inner .skills__icons .skills__row {
+.skills .skills__inner .skills__icons .skills__row .skills__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -431,13 +431,16 @@ svg * {
 .footer .footer__inner .footer__text span {
   font-weight: 600;
 }
-.footer .footer__inner .footer__icons {
+.footer .footer__inner .footer__icons .footer__icons-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   -moz-column-gap: 15px;
        column-gap: 15px;
 }
-.footer .footer__inner .footer__icons .footer__link:hover {
+.footer .footer__inner .footer__icons .footer__icons-list .footer__icons-item .footer__icons-link {
+  display: inline-block;
+}
+.footer .footer__inner .footer__icons .footer__icons-list .footer__icons-item .footer__icons-link:hover {
   scale: 1.05;
 }

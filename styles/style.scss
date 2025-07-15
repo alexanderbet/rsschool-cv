@@ -78,10 +78,12 @@
     }
     .skills__icons {
       .skills__row {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
+         .skills__list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+         }
         &:not(:last-child) {
           margin-bottom: 15px;
         }
@@ -264,12 +266,19 @@
          }
       }
       .footer__icons {
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         column-gap: 15px;
-         .footer__link:hover {
-            scale: 1.05;
+         .footer__icons-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 15px;
+            .footer__icons-item {
+               .footer__icons-link {
+                  display: inline-block;
+                  &:hover {
+                     scale: 1.05;
+                  }
+               }
+            }
          }
       }
    }
